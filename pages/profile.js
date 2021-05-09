@@ -59,13 +59,13 @@ export default function Register(props) {
         <div className="profile-box">
           <Row className="justify-content-md-center mb-2">
             <Col xs={4} className="text-center">
-              {props.profile.pictureUrl && <Image
+              {/* {props.profile.pictureUrl && <Image
                 src={props.profile.pictureUrl}
                 alt={props.profile.displayName}
                 width={96}
                 height={96}
                 roundedCircle
-              />}
+              />} */}
               <div className="mt-1 mb-1">
                 <h5><Award size={24} />{' '} 5,000</h5>
               </div>
@@ -73,14 +73,14 @@ export default function Register(props) {
             <div>{props.profile.userId}</div> */}
             </Col>
             <Col xs={8} className="text-left">
-              <h5>{props.users.fullname}</h5>
+              {/* <h5>{props.users.fullname}</h5>
               <div>{props.users.email}</div>
               <div>{props.users.mobile}</div>
               <div className="mt-1">
                 {!friendFlag && <Button variant="success" size="sm">
                   <PersonPlusFill size={18} />{' '}Add Friend
                 </Button>}
-              </div>
+              </div> */}
             </Col>
           </Row>
         </div>

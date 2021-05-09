@@ -56,7 +56,7 @@ export default function Login(props) {
         </Row>
         <Row className="justify-content-md-center mb-3">
           <Col className="text-center">
-            {props.profile.pictureUrl && <Image
+            {/* {props.profile.pictureUrl && <Image
               src={props.profile.pictureUrl}
               alt={props.profile.displayName}
               width={150}
@@ -64,7 +64,7 @@ export default function Login(props) {
               roundedCircle
             />}
             <div>{props.profile.displayName}</div>
-            <div>{props.profile.userId}</div>
+            <div>{props.profile.userId}</div> */}
             <div>{props.email}</div>
             
             {/* <Image src={profile.pictureUrl} roundedCircle /> */}
